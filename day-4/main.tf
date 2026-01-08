@@ -3,7 +3,7 @@ resource "aws_instance" "EC2" {
     ami = var.ami_id
     instance_type = var.instype
     tags = {
-      Name = "Remote Statefile"
-    }
+      Name = "Remote State file"
+   }
   
 }
